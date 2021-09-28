@@ -1,5 +1,2 @@
 bonjour
-
-
-
 au revoir
