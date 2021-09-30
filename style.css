@@ -35,7 +35,7 @@ body {
     padding: 0 287px;
     margin: 0;
     display: grid;
-    grid-template-columns: 160px 240px 130px 180px 170px 230px;
+	grid-template-columns: auto auto auto auto auto auto;
     letter-spacing: -1px;
 }
 
@@ -47,6 +47,7 @@ body {
 .menu a {
     color: black;
     text-decoration: none;
+    padding: 0 32.98px;
 }
 
 .menu a:hover {
