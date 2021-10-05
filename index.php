@@ -1,5 +1,9 @@
 <?php include 'header.php' ?>
 
+	<a class="arrow" href="#">
+		<i class="fas fa-arrow-up"></i>
+	</a>
+	
 	<div class="main">
 		<div class="section" id="restaurant">
 			<br>

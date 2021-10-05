@@ -210,14 +210,7 @@ Problème premier clic ancre
   ##Screen = B/w 1025px to 1280px
 */
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-    body {
-       /* background-size: 1588px;
-        background-position: 50% 50%;*/
-        /*background-position-y: -90px;
-        background-position-x: -150px;*/
-    }    
+@media (min-width: 1025px) and (max-width: 1280px) {  
 
     .menu a {
         padding: 0 2vw;
@@ -244,14 +237,7 @@ Problème premier clic ancre
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 767px) and (max-width: 1025px) {
-
-    body {
-        /*background-size: 1678px;
-        background-position: 50% 50%;*/
-        /*background-position-y: -90px;
-        background-position-x: -150px;*/
-    }    
+@media (min-width: 767px) and (max-width: 1025px) { 
 
     .menu {
         font-size: 20px;
@@ -348,6 +334,20 @@ Problème premier clic ancre
         margin-top: 50vh;
     }
 
+    .arrow {
+        font-size: 30px;
+        margin-top: 145px;
+        position: fixed;
+        background-color: black;
+        padding: 10px 11px 5px;
+        border-radius: 5px;
+        opacity: 0.6;
+        color: white;
+        right: 9px;
+        bottom: 9px;
+        box-shadow: 0 0 20px black;
+    }
+
     .footer {
         display: grid;
         grid-template-columns: 1.1fr 1fr;
@@ -408,6 +408,20 @@ Problème premier clic ancre
         margin-top: 50vh;
     }
 
+    .arrow {
+        font-size: 30px;
+        margin-top: 145px;
+        position: fixed;
+        background-color: black;
+        padding: 10px 11px 5px;
+        border-radius: 5px;
+        opacity: 0.6;
+        color: white;
+        right: 9px;
+        bottom: 9px;
+        box-shadow: 0 0 20px black;
+    }
+
     .footer {
         display: inline;
     }
@@ -463,6 +477,20 @@ Problème premier clic ancre
         margin-top: 50vh;
     }
 
+    .arrow {
+        font-size: 30px;
+        margin-top: 145px;
+        position: fixed;
+        background-color: black;
+        padding: 10px 11px 5px;
+        border-radius: 5px;
+        opacity: 0.6;
+        color: white;
+        right: 9px;
+        bottom: 9px;
+        box-shadow: 0 0 20px black;
+    }
+
     .footer {
         display: inline;
     }
@@ -481,8 +509,3 @@ Problème premier clic ancre
     }
 
 }
-
-
-/*
-régler image de fond
-*/
