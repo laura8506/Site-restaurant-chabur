@@ -42,6 +42,8 @@ body {
 .fixed {
     position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
 }
 
 .menu a {
@@ -192,3 +194,70 @@ button a {
 Bordure tableau carte à régler
 Problème premier clic ancre
 */
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1280px) {
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 825px) and (max-width: 1025px) {
+
+}
+
+@media (min-width: 767px) and (max-width: 825px) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 825px) and (max-width: 1025px) and (orientation: landscape) {
+
+}
+
+@media (min-width: 767px) and (max-width: 825px) and (orientation: landscape) {
+    
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
