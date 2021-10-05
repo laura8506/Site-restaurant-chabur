@@ -4,8 +4,9 @@ body {
     color: #000000;
     padding: 0;
     background-image: url("food-918613.jpg");
-    background-size: 100%;
-    background-position-y: -150px;
+    background-size: auto 150%;
+    background-position-y: -220px;
+    background-position-x: 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -201,7 +202,7 @@ Problème premier clic ancre
 */
 
 @media (min-width: 1280px) {
-
+  
 }
 
 /*
@@ -210,6 +211,13 @@ Problème premier clic ancre
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+
+    body {
+       /* background-size: 1588px;
+        background-position: 50% 50%;*/
+        /*background-position-y: -90px;
+        background-position-x: -150px;*/
+    }    
 
     .menu a {
         padding: 0 2vw;
@@ -237,6 +245,13 @@ Problème premier clic ancre
 */
 
 @media (min-width: 767px) and (max-width: 1025px) {
+
+    body {
+        /*background-size: 1678px;
+        background-position: 50% 50%;*/
+        /*background-position-y: -90px;
+        background-position-x: -150px;*/
+    }    
 
     .menu {
         font-size: 20px;
@@ -329,6 +344,10 @@ Problème premier clic ancre
         padding: 16px 5vw;
     }
 
+    .section {
+        margin-top: 50vh;
+    }
+
     .footer {
         display: grid;
         grid-template-columns: 1.1fr 1fr;
@@ -385,6 +404,10 @@ Problème premier clic ancre
         padding: 16px 5vw;
     }
 
+    .section {
+        margin-top: 50vh;
+    }
+
     .footer {
         display: inline;
     }
@@ -434,6 +457,10 @@ Problème premier clic ancre
 
     .section, footer {
         padding: 16px 5vw;
+    }
+
+    .section {
+        margin-top: 50vh;
     }
 
     .footer {
