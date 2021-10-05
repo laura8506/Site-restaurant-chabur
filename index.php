@@ -76,7 +76,6 @@
 			<br>
 			<p class="carte"><b>LA CARTE</b></p>
 			<br>
-			<br>
 			<table class="table">
 				<tr>
 					<td colspan="2"><b>Notre carte été</b></td>
@@ -89,8 +88,7 @@
 					<td class="align-droite">17€</td>
 				</tr>
 				<tr>
-					<td>Salade périgourdine (Magret fumés, jambon cru, foie gras et gésiers de<br>
-						canard)</td>
+					<td>Salade périgourdine (Magret fumés, jambon cru, foie gras et gésiers de canard)</td>
 					<td class="align-droite">19€</td>
 				</tr>
 				<tr>
@@ -155,8 +153,7 @@
 					<td class="align-droite">7€</td>
 				</tr>
 				<tr>
-					<td>Profiterole, fourré d’une glace cacahuète, sauce chocolat, chantilly et<br>
-						amandes effilés torréfié</td>
+					<td>Profiterole, fourré d’une glace cacahuète, sauce chocolat, chantilly et amandes effilés torréfié</td>
 					<td class="align-droite">8€</td>
 				</tr>
 				<tr>
@@ -167,10 +164,8 @@
 					<td colspan="2"><b>Coin salon canapé, apéritif</b></td>
 				</tr>
 				<tr>
-					<td>Ardoise de Tapas « terre et mer » Les produits des ardoises varient selon<br>
-						l’arrivage</td>
-					<td class="align-droite">12€<br>
-						par pers</td>
+					<td>Ardoise de Tapas « terre et mer » Les produits des ardoises varient selon l’arrivage</td>
+					<td class="align-droite">12€ par pers</td>
 				</tr>
 			</table>
 			<br><br><br>

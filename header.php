@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title>Restaurant La Coccinelle</title>
+	<title>Restaurant Au Nouveau Chabur</title>
 	<meta charset="utf-8">
 	<meta name="description" content="Restaurant La Coccinelle : cuisine traditionnelle française à Bourges">
 	<meta name="keywords" content="Restaurant, La Coccinelle, cuisine, traditionnelle, française, Bourges">
@@ -11,7 +11,7 @@
 <body>
 	<header class="topbar">
 		<div class="titre">
-			Restaurant La Coccinelle<br>
+			Restaurant Au Nouveau Chabur<br>
 			<div class="soustitre">
 				Cuisine traditionnelle française
 			</div>
