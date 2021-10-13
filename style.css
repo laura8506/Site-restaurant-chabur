@@ -190,6 +190,10 @@ button a {
     color:white;
 }
 
+.arrow {
+    display: none;
+}
+
 /*
 Bordure tableau carte à régler
 Problème premier clic ancre
@@ -335,6 +339,7 @@ Problème premier clic ancre
     }
 
     .arrow {
+        display: block;
         font-size: 30px;
         margin-top: 145px;
         position: fixed;
@@ -409,6 +414,7 @@ Problème premier clic ancre
     }
 
     .arrow {
+        display: block;
         font-size: 30px;
         margin-top: 145px;
         position: fixed;
@@ -478,6 +484,7 @@ Problème premier clic ancre
     }
 
     .arrow {
+        display: block;
         font-size: 30px;
         margin-top: 145px;
         position: fixed;

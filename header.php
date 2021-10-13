@@ -19,9 +19,9 @@
 		</div>
 		<div class="menu">
 			<a class="item" href="index.php">ACCUEIL</a>
-			<a class="item" href="#restaurant">LE RESTAURANT</a>
-			<a class="item" href="#menu">MENU</a>
-			<a class="item" href="#carte">LA CARTE</a>
+			<a class="item" href="index.php#restaurant">LE RESTAURANT</a>
+			<a class="item" href="index.php#menu">MENU</a>
+			<a class="item" href="index.php#carte">LA CARTE</a>
 			<a class="item" href="contact.php">CONTACT</a>
 			<a class="item" href="noustrouver.php">NOUS TROUVER</a>
 		</div>
