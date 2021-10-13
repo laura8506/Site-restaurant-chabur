@@ -3,11 +3,9 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #000000;
     padding: 0;
-    background-image: url("food-918613.jpg");
-    background-size: auto 150%;
-    background-position-y: -220px;
-    background-position-x: 50%;
-    background-repeat: no-repeat;
+    background: url("food-918613.jpg") no-repeat;
+    background-size: 1920px;
+    background-position: 60% 50%;
     background-attachment: fixed;
 }
 
@@ -152,7 +150,19 @@ footer a:hover {
 .contact, .noustrouver {
     justify-content: center !important;
     margin-top: 0;
-    padding: 16px 450px !important;
+    padding: 16px 29.9vw !important;
+}
+
+.noustrouver {
+    width: 41.2vw;
+}
+
+iframe {
+    width: 40.9vw;
+    height: 41vh;
+    border: 3px solid black;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.75rem black);
 }
 
 input {
@@ -166,6 +176,7 @@ textarea {
 input, textarea {
     border: 0.5px solid #c5cfd9;
     border-radius: 5px;
+    width: 39vw;
 }
 
 label {
@@ -234,6 +245,23 @@ Problème premier clic ancre
         grid-template-columns: 1.1fr 1fr;
     }
 
+    .contact, .noustrouver {
+        padding: 16px 17vw !important;
+    }
+
+    input, textarea {
+        width: 64vw;
+    }
+
+    .noustrouver {
+        width: 66vw;
+    }
+
+    iframe {
+        width: 65.4vw;
+        height: 41vh;
+    }
+
 }
 
 /*
@@ -269,6 +297,23 @@ Problème premier clic ancre
         grid-template-columns: 1.1fr 1fr;
     }
 
+    .contact, .noustrouver {
+        padding: 16px 17vw !important;
+    }
+
+    input, textarea {
+        width: 64vw;
+    }
+
+    .noustrouver {
+        width: 66vw;
+    }
+
+    iframe {
+        width: 65.4vw;
+        height: 41vh;
+    }
+
 }
 
 /*
@@ -302,6 +347,23 @@ Problème premier clic ancre
     .footer {
         display: grid;
         grid-template-columns: 1.1fr 1fr;
+    }
+
+    .contact, .noustrouver {
+        padding: 16px 17vw !important;
+    }
+
+    input, textarea {
+        width: 64vw;
+    }
+
+    .noustrouver {
+        width: 66vw;
+    }
+
+    iframe {
+        width: 65.4vw;
+        height: 41vh;
     }
 
 }
@@ -368,6 +430,24 @@ Problème premier clic ancre
 
     .mentions_footer {
         margin-left: 0;
+    }
+
+    .contact, .noustrouver {
+        padding: 16px 17vw !important;
+        margin-top: 5vh;
+    }
+
+    input, textarea {
+        width: 64vw;
+    }
+
+    .noustrouver {
+        width: 66vw;
+    }
+
+    iframe {
+        width: 65.4vw;
+        height: 41vh;
     }
 
 }
@@ -445,6 +525,31 @@ Problème premier clic ancre
         padding: 10px 10px;
     }
 
+    .contact, .noustrouver {
+        margin-top: 5vh;
+    }
+
+    .contact {
+        padding: 16px 10vw !important;
+    }
+
+    .noustrouver {
+        padding: 16px 9vw !important;
+    }
+
+    input, textarea {
+        width: 75vw;
+    }
+
+    .noustrouver {
+        width: 82vw;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 41vh;
+    }
+
 }
 
 @media (max-width: 320px) {
@@ -513,6 +618,32 @@ Problème premier clic ancre
 
     td {
         padding: 10px 10px;
+    }
+
+    .contact, .noustrouver {
+        margin-top: 5vh;
+    }
+
+    .contact {
+        padding: 16px 10vw !important;
+    }
+
+    .noustrouver {
+        padding: 16px 9vw !important;
+    }
+
+    input, textarea {
+        width: 75vw;
+    }
+
+
+    .noustrouver {
+        width: 82vw;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 41vh;
     }
 
 }
